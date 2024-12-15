@@ -1,0 +1,132 @@
+
+.panel{
+    background-color:white;
+    width:800px;
+    height:550px;
+   border-radius:6px;
+   margin:auto;
+   margin-top:20px;
+   padding-left:70px;
+   position:relative;
+   display:flex;
+   gap:40px;
+}
+.gray-panel{
+    background:#11111157;
+    width: 380px;
+    height:550px;
+    display:flex;
+
+}
+.logo{
+    background:transparent;
+    color:black;    
+   position:absolute;
+   left:28px;
+   top:30px;
+   font-weight:600;
+   
+}
+.form-container{
+    background:transparent;
+    /* border:2px solid green; */
+    width:350px;
+    margin:auto;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-text,.form-text span{
+    background:transparent;
+    font-size:25px;
+}
+.form-text span{
+    color:rgb(15, 139, 255);
+    font-weight:600;        
+}
+#form{
+    background:transparent;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+#name,#email,#password,#form label{
+    background:transparent;
+    outline:none;
+  
+}
+#name,#email,#password{
+    border:2px solid gray;
+    border-radius:3px;
+    padding:2px;
+}
+.signup-btn{
+    width:100px;
+    background-color:#1D59F1 ;
+    color:white;
+    font-weight:600;
+    letter-spacing: 2px;
+    outline:none;
+    border:none;
+    border-radius:3px;
+    font-size:15px; 
+    padding:3px;
+    align-self: center;
+    margin-block:20px;
+    cursor:pointer;
+}
+#login-form label{
+    background:transparent;
+}
+#login-form{
+    background:transparent;
+    width:100%; 
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+.white-panel{
+    background:transparent; 
+    width:300px;
+    height:550px;
+    /* border:2px solid red; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.login-heading-text{
+    background:transparent;
+    text-align:center;
+}
+.login-btn{
+    width:100px;
+    background-color:#1D59F1 ;
+    color:white;
+    font-weight:600;
+    letter-spacing: 2px;
+    outline:none;
+    border:none;
+    border-radius:3px;
+    font-size:15px; 
+    padding:3px;
+    align-self: center;
+    margin-block:20px;
+    cursor:pointer;
+}
+.middle-text{
+    background:#1D59F1;
+    width:30px;
+    height:30px;
+    border-radius:100%;
+    color:white;
+    font-weight:600;
+    font-size:20px;
+    text-align:center;
+    padding:2px;
+    position: absolute;
+    left:54%;
+    top:44%;
+}

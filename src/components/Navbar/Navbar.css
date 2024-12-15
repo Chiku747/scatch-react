@@ -1,0 +1,30 @@
+.navigation-bar{
+    width:100%;
+    /* border:2px solid red; */
+    display:grid;   
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding-block:5px;
+    padding-inline:20px;
+}
+.logo-text{
+    color:#1D59F1;
+    font-size:32px;
+    font-weight:600;
+}
+.nav-links ul{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    gap:40px;
+
+}
+.nav-links ul li{
+    list-style:none;
+    color:white;
+    font-size:22px;
+}
+.nav-links ul li a{
+    text-decoration:none;
+    color:inherit;
+}

@@ -1,0 +1,15 @@
+#delete-products,#create-new{
+    background-color:transparent;
+    color:white;
+    margin-left:30px;
+    padding:10px;
+    
+}
+#delete-products{
+    margin-top:70px;
+    color:rgb(207, 4, 4);
+    font-weight:600;
+}
+#create-new{
+    color:green;
+}
